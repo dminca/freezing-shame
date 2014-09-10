@@ -1,0 +1,7 @@
+public class ProsciutoPizza extends Pizza{
+    public ProsciutoPizza(String nume, double pret){
+        ingrediente = new Ingredient[5];
+        this.nume = nume;
+        this.pret = pret;
+    }
+}
